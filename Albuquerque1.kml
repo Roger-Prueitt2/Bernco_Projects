@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+ <Document>
+  <name>Labeled GIS Data</name>
+  <Style id="PointsRed">
+    <IconStyle>
+      <color>ff0000ff</color>
+    </IconStyle>
+  </Style>
+  <Style id="PointsGreen">
+    <IconStyle>
+      <color>ff00ff00</color>
+    </IconStyle>
+  </Style>
+  <Style id="WaterBody">
+    <PolyStyle>
+      <color>55ff0000</color>
+    </PolyStyle>
+  </Style>
+  <Style id="Area">
+    <PolyStyle>
+      <color>770000ff</color>
+    </PolyStyle>
+  </Style>
+  <Style id="PolylineRed">
+    <LineStyle>
+      <color>ff000077</color>
+      <colorMode>normal</colorMode>
+      <width>4</width>
+     </LineStyle>
+  </Style>
+  <Style id="PolylineBlue">
+    <LineStyle>
+      <color>ffff0000</color>
+      <colorMode>normal</colorMode>
+      <width>4</width>
+    </LineStyle>
+  </Style>
+ <Style id="PolygonsGridInner">
+    <PolyStyle>
+      <color>1500ffff</color>
+    </PolyStyle>
+  </Style>
+  <Style id="PolygonsGridOuter">
+    <PolyStyle>
+      <color>ff0000ff</color>
+    </PolyStyle>
+  </Style>
+  <Style id="PolylineRedOuter">
+    <LineStyle>
+      <color>ff00007f</color>
+      <colorMode>normal</colorMode>
+      <width>4</width>
+     </LineStyle>
+  </Style>
+  <Placemark>
+   <name>Solar Map</name>
+    <description>
+      <![CDATA[
+       <h4>House  Address:  3117 Loma Blvd, NE, Albuquerque, NM</h4>
+       <h4>Permanent_Identifier:   127631633</h4>
+       <h4>Roof Square Footage:  1500</h4>
+	   <h4>Potential kw for roof = 18.75</h4>
+       <h4>Average Solar system = 5 kilowatt w/ 400 <br> square feet footprint @ avg. $15000.00 installation</h4>
+      ]]>
+     </description>
+   <styleUrl>#PolygonsGridOuter</styleUrl>
+    <Polygon>
+	<extrude>10</extrude>
+      <outerBoundaryIs>
+       <altitudeMode>relativeToGround</altitudeMode>
+        <LinearRing>
+         <coordinates>
+         -106.6056,35.0853,10
+         -106.6056,35.0854,10
+		 -106.6058,35.0854,10
+		 -106.6058,35.0853,10
+         -106.6056,35.0853,10
+        </coordinates>
+      </LinearRing>
+     </outerBoundaryIs>
+    </Polygon>
+ </Placemark>
+ </Document>
+</kml>
